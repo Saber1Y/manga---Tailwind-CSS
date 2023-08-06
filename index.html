@@ -26,6 +26,7 @@
         >
           Get Started
         </a>
+
         <button
           id="menu-btn"
           class="block hamburger md:hidden focus:outline-none"
@@ -35,6 +36,7 @@
           <span class="hamburger-bottom"></span>
         </button>
       </div>
+
       <div class="md:hidden">
         <div
           id="menu"
@@ -263,22 +265,21 @@
           <div class="mx-auto my-6 text-center text-white md:hidden">
             Copyright &copy; 2022, All Rights Reserved
           </div>
-          <img src="/img/logo-white.svg" alt="manga" class="h-8 mt-6" />
+          <img src="/img/logo-white.svg" alt="manga" class="h-16 pt-5" />
           <div class="flex justify-center space-x-4">
             <a href="#">
-              <img src="/img/icon-twitter.svg" alt="instagram" class="h-8" />
-              <img src="/img/icon-pinterest.svg" alt="" />
-              <img src="/img/icon-facebook.svg" alt="" />
+              <img src="/img/icon-twitter.svg" alt="instagram" class="h-3" />
+              <img src="/img/icon-pinterest.svg" alt="" class="h-3" />
+              <img src="/img/icon-facebook.svg" alt="" class="h-3" />
             </a>
           </div>
         </div>
         <div class="flex justify-around space-x-32">
           <div class="flex flex-col space-y-3 text-white">
-            <a href="#" class="hover bg-text-brightRed">Home</a>
-            <a href="#" class="hover bg-text-brightRed">Pricing</a>
-            <a href="#" class="hover bg-text-brightRed">Products</a>
-            <a href="#" class="hover bg-text-brightRed">About</a>
-            <a href="#" class="hover bg-text-brightRed"></a>
+            <a href="#" class="hover:text-brightRed">Home</a>
+            <a href="#" class="hover:text-brightRed">Pricing</a>
+            <a href="#" class="hover:text-brightRed">Products</a>
+            <a href="#" class="hover:text-brightRed">About</a>
           </div>
           <div class="flex flex-col space-y-3 text-white">
             <a href="#" class="hover:text-brightRed">Careers</a>
@@ -288,10 +289,10 @@
         </div>
         <div class="flex flex-col justify-between">
           <form>
-            <div class="flex space-x-3">
+            <div class="flex space-x-3 mt-5">
               <input
                 type="text"
-                class="flex-1 px-4 rounded full focus:outline-none"
+                class="flex-1 px-10 h-10 rounded full focus:outline-none"
                 placeholder="Updated in your Inbox"
               />
               <button
@@ -307,5 +308,6 @@
         </div>
       </div>
     </footer>
+    <script src="/js/main.js"></script>
   </body>
 </html>
